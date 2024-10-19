@@ -117,7 +117,7 @@ const ShowCbz: React.FC = () => {
               alt={file.name}
               width={1000}
               height={1500}
-              style={{ width: "100%", height: "auto", objectFit: "contain" }}
+              style={{ width: "auto", height: "auto", objectFit: "contain" }}
             />
             <div style={{ marginTop: "0.5rem", textAlign: "center" }}>
               Page {index + 1} of {extractedFiles.length}
